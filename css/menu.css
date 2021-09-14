@@ -1,24 +1,42 @@
-.menu
+nav
 {
     width: 100%;
+    padding: 10px 0;
     background-color: rgb(38, 14, 56);
-    font-size: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    border-bottom: 4px dashed black;
+    border-top: 4px dashed black;
+    text-align: center;
 }
+
 .menu > ul
 {
-    list-style: none;
-    text-align: center;
+    padding: 0;
     margin: 0;
-}
-.menu > ul > li a
-{
-    text-decoration: none;
-}
-.menu > ul > li 
-{
+    list-style: none;
+    font-size: 33px;
+    min-height: 200%;
     display: inline-block;
-    text-align: center;
-    font-size: 25px;
+}
+.menu > ul a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+.menu > ul > li
+{
+    width: 250px;
+    border-right: 3px solid black;
+    float: left;
+}
+.menu > ul > li:first-child
+{
+    border-left:3px solid black; 
+}
+.menu > ul a:hover
+{
+    background-color: rgb(53, 72, 107);
+    border-radius: 5px;
 }

@@ -20,6 +20,11 @@ body
 {
     background-color: rgb(17, 16, 16);
     color: white;
+    margin: 0;
+    border-top: 4px outset   rgb(134, 63, 30);
+    border-bottom: 4px outset rgb(134, 63, 30);
+    border-left: 4px outset rgb(134, 63, 30);
+    border-right: 4px outset rgb(134, 63, 30);
 }
 
 .span
