@@ -1,0 +1,16 @@
+.conteiner
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:30vh;
+}
+
+#zegar
+{
+    font-size: 90px;
+    letter-spacing: 9px;
+    font-family: 'Acme', sans-serif;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 0px -2px 17px rgba(206,89,55,0.66), 0px 5px 20px rgba(206,89,55,0.7);
+}

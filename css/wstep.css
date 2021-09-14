@@ -1,0 +1,80 @@
+@keyframes appear {
+    0%  {
+        opacity: 0;
+        text-shadow: 0 0 10px rgb(92, 160, 3),
+        0 0 20px rgb(60, 121, 3),
+        0 0 30px rgb(13, 121, 3),
+        0 5px 40px rgb(36, 121, 3),
+        0 5px 50px rgb(17, 121, 3),
+        0 5px 60px rgb(13, 121, 3);
+        color: rgb(184, 166, 166);
+
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+body
+{
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+
+.span
+{
+    width: 1000px;
+    font-size: 5rem;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 2px 2px 2px rgba(206,89,55,0);
+    letter-spacing: 20px;
+    animation-name: appear;
+    animation-fill-mode: both;
+    animation-delay:inherit;
+    animation-iteration-count:infinite;
+    text-align: center;
+    float: left;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+.h1
+{
+    transform: rotate(35deg);
+    display: inline-block;
+    position: relative;
+    left: -35px;
+    top: 15px;
+    animation-name: appear;
+    animation-duration:1.5s;
+    animation-fill-mode: both;
+    animation-delay:inherit;
+    animation-iteration-count:infinite;
+}
+.h1-1
+{
+    transform: rotate(35deg);
+    display: inline-block;
+    position: relative;
+    left: 4px;
+    top: 15px;
+    animation-name: appear;
+    animation-duration:1.5s;
+    animation-fill-mode: both;
+    animation-delay:inherit;
+    animation-iteration-count:infinite; 
+}
+
+.h1-2
+{
+    transform: rotate(40deg);
+    display: inline-block;
+    position: absolute  ;
+    left: 721px;
+    top: 152px;  
+    animation-duration:1.5s;
+    animation-fill-mode: both;
+    animation-delay:inherit;    
+    animation-iteration-count:infinite; 
+    animation-name: appear;
+}
+
