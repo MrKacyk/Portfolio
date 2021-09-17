@@ -25,14 +25,15 @@ body
     border-bottom: 4px outset rgb(134, 63, 30);
     border-left: 4px outset rgb(134, 63, 30);
     border-right: 4px outset rgb(134, 63, 30);
+
 }
 
 .span
 {
     width: 1000px;
-    font-size: 5rem;
+    font-size: 3.8rem;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 2px 2px 2px rgba(206,89,55,0);
-    letter-spacing: 20px;
+    letter-spacing: 17px;
     animation-name: appear;
     animation-fill-mode: both;
     animation-delay:inherit;
@@ -40,8 +41,9 @@ body
     text-align: center;
     float: left;
     margin-top: 45px;
-    margin-left: 10px;
+    margin-left: 10px;  
 }
+
 .h1
 {
     transform: rotate(35deg);
@@ -54,10 +56,11 @@ body
     animation-fill-mode: both;
     animation-delay:inherit;
     animation-iteration-count:infinite;
+    padding:7px;
 }
 .h1-1
 {
-    transform: rotate(35deg);
+    transform: rotate(30deg);
     display: inline-block;
     position: relative;
     left: 4px;
@@ -69,17 +72,22 @@ body
     animation-iteration-count:infinite; 
 }
 
-.h1-2
+.bok
 {
-    transform: rotate(40deg);
-    display: inline-block;
-    position: absolute  ;
-    left: 721px;
-    top: 152px;  
-    animation-duration:1.5s;
-    animation-fill-mode: both;
-    animation-delay:inherit;    
-    animation-iteration-count:infinite; 
-    animation-name: appear;
+    width: 250px;
+    height: 700px;
+    background-color: rgb(44, 8, 19);
+    border-right: 4px dashed black;
 }
 
+.s1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    font-size: 29px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 8px;
+    font-weight: 700;
+}
