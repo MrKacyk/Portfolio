@@ -72,22 +72,4 @@ body
     animation-iteration-count:infinite; 
 }
 
-.bok
-{
-    width: 250px;
-    height: 700px;
-    background-color: rgb(44, 8, 19);
-    border-right: 4px dashed black;
-}
 
-.s1
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 15vh;
-    font-size: 29px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    letter-spacing: 8px;
-    font-weight: 700;
-}

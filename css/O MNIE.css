@@ -1,0 +1,80 @@
+#conteiner
+{
+    margin:0;
+    padding: 0;
+}
+
+.s1
+{
+    color:rgb(13, 211, 211);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;   
+    letter-spacing: 5px;    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-shadow: 6px 6px 10px black;
+}
+.icon-home-outline
+{
+    text-decoration: none;
+    color: rgba(209, 95, 2, 0.616);
+}
+.art
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bok
+{
+    width: 250px;
+    height: 700px;
+    background-color: rgb(44, 8, 19);
+    border-right: 4px dashed black;
+    float: left;
+    margin: 0;
+}
+.wstep
+{
+    font-size: 60px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 5px;
+    color: rgba(14, 206, 206, 0.87);
+    text-shadow: 6px 6px 12px black;
+    font-weight: 500;
+    margin: 0;
+}
+.box1
+{
+    display:grid;
+    justify-content: center ;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+p
+{
+    margin: 0;
+}
+ul > li 
+{
+    width: 150px;
+}
+ul
+{
+    display:grid;
+    justify-content: center ;
+    margin-right: 8rem;
+}
+.p1
+{
+    text-align: center;
+    margin-right: 2rem;
+}
