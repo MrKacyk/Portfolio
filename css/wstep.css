@@ -18,13 +18,14 @@
 
 body
 {
-    background-color: rgb(17, 16, 16);
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url(../img/tlo3.png);
     color: white;
     margin: 0;
-    border-top: 4px outset   rgb(134, 63, 30);
-    border-bottom: 4px outset rgb(134, 63, 30);
-    border-left: 4px outset rgb(134, 63, 30);
-    border-right: 4px outset rgb(134, 63, 30);
+    border-top: 5px outset   rgb(134, 63, 30);
+    border-bottom: 5px outset rgb(134, 63, 30);
+    border-left: 5px outset rgb(134, 63, 30);
+    border-right: 5px outset rgb(134, 63, 30);
 
 }
 
