@@ -1,3 +1,4 @@
+
 .imie-label
 {
     width: 400px;
@@ -12,10 +13,96 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    min-height: 15vh;
+    min-height: 35vh;
 }
 
 #BOX
 {
+    /* Background pattern from Toptal Subtle Patterns */
     background-image: url(../img/tlo2.png);
+}
+
+.KJ
+{
+    width: 40%;
+    height: 30px;
+    background-color: rgb(44, 8, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 2s;  
+    transition-property: height;
+    transition-duration: 1s;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-radius-bottomright: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom: 4px dashed black;
+    font-size: 35px;
+    color: darkred;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    float: left;
+    letter-spacing: 4px;
+    text-shadow: 5px 5px 10px black;
+}
+.KJ:hover
+{
+    height: 80px;  
+}
+.KJ1
+{
+    width: 40%;
+    height: 30px;
+    background-color: rgb(44, 8, 19);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition:transform 2s;  
+    transition-property: height;
+    transition-duration: 1s;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-radius-bottomright: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom: 4px dashed black;
+    font-size: 35px;
+    color: darkred;
+    font-weight: 700;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    float: right;
+    letter-spacing: 4px;
+    text-shadow: 5px 5px 10px black;
+}
+.KJ1:hover
+{
+    height: 80px;  
+}
+
+.conti
+{
+    width: 100%;
+    height:80px ;
+    margin: 0;
+    padding: 0;
+}
+
+.Spann
+{
+    opacity: 0;
+    display: block;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    transition-duration: 1.2s;
+}
+.Spann:hover
+{
+    opacity: 1;
 }
