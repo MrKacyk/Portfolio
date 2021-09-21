@@ -33,6 +33,7 @@ nav
     border-right: 3px solid black;
     float: left;
     letter-spacing: 2px;
+    text-shadow: 6px 6px 12px black;
 }
 .menu > ul > li:first-child
 {

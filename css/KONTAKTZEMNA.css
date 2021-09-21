@@ -1,9 +1,27 @@
+*, *::before, *::after
+{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
 
 .imie-label
 {
     width: 400px;
     height: 50px;
-   
+    margin: 10px;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+.area
+{
+    margin: 10px;
+    padding: 4px;
+    width: 550px;
+    height: 150px;
+    font-size: 18px;
+    border-radius: 7px;
 }
 
 .row
@@ -11,9 +29,10 @@
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    min-height: 35vh;
+    margin: 10px;
+    padding: 2px;
 }
 
 #BOX
@@ -50,7 +69,7 @@
 }
 .KJ:hover
 {
-    height: 80px;  
+    height: 75px;  
 }
 .KJ1
 {
@@ -80,7 +99,7 @@
 }
 .KJ1:hover
 {
-    height: 80px;  
+    height: 75px;  
 }
 
 .conti
@@ -96,13 +115,124 @@
     opacity: 0;
     display: block;
     padding-left: 165px;
-    padding-right: 165px;
+    padding-right: 135px;
     padding-top: 20px;
     padding-bottom: 10px;
     border-radius: 20px;
-    transition-duration: 1.2s;
+    transition-duration: 1.2s; 
 }
 .Spann:hover
 {
     opacity: 1;
+}
+
+.input
+{
+    margin: 5px;
+    padding: 0;
+    position: relative;
+    left: 1vh;
+    bottom: -1vh;
+    width: 100%;   
+}
+.inputt
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    background: rgb(22, 22, 119);
+    border-style: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.stopka
+{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: rgb(26, 16, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    border-top: 4px dashed black;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 14px;
+}
+
+.pytanie
+{
+    margin: 10px;
+    padding: 2px;
+    font-size: 25px;
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 4px;
+    color: brown;
+    font-weight: 700;
+}
+.div-1
+{
+    color: white;
+}
+.info
+{   
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 12vh;
+    bottom: 1px;
+    border:3px solid rgba(18, 187, 32, 0.685);
+    border-radius: 10px;
+    background: rgb(5, 22, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif
+}
+
+.info > a
+{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(216, 199, 199);
+    text-shadow: 5px 5px 10px black;
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabela
+{
+    background-color: rgb(31, 12, 12);
+    position: absolute;
+    right: 25vh;
+    bottom: 10vh;
+    border-radius: 10px;
+    font-family: 'Urbanist', sans-serif
+}
+td{
+    padding: 9px;
+    text-align: center;
+    border-radius: 7px;
+}
+.xxx
+{
+    color: rgb(117, 109, 109);
+    background-color: rgb(41, 38, 38);
+}
+
+.xxx-1
+{
+    background-color: rgb(30, 30, 114);
+}
+.xxx-1y
+{
+    color: rgb(97, 89, 89);
+    background-color: rgb(21, 21, 73);
 }
