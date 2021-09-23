@@ -214,8 +214,9 @@
     right: 25vh;
     bottom: 10vh;
     border-radius: 10px;
-    font-family: 'Urbanist', sans-serif
+    font-family: 'Urbanist', sans-serif;
 }
+
 td{
     padding: 9px;
     text-align: center;
