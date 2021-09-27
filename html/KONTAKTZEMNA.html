@@ -18,6 +18,16 @@
 
     <script src="../Js/timer.js"></script>
     <script src="../Js/funkcje.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script>
+
+        $(document).ready(function() {
+        $("#klik").click(function () { 
+        $('#pokaz').slideToggle('normal');
+        });
+        });
+        </script>
 
 </head>
 <body onload="odliczanie();">
@@ -81,40 +91,42 @@
                     </div>
            
                 </div>
+               
+                <button type="button" id="klik"> Grafik Pracy</button>
+            
+                <table id="pokaz" width="360">
 
-                <button type="button" onclick="showtable()"> Grafik Pracy</button>
-                <table id="tabela" width="360">
+                        <tr>
+                            <td colspan="7">Wrzesień</td>   
+                        </tr>
 
-                    <tr>
-                        <td colspan="7">Wrzesień</td>   
-                    </tr>
+                        <tr>
+                            <td width="50">Pon</td> <td width="50">Wt</td> <td width="50">Śr</td> <td width="50">Czw</td> <td width="50">Pt</td> <td width="50">Sob</td> <td width="50">Ndz</td>
+                        </tr>
 
-                    <tr>
-                        <td width="50">Pon</td> <td width="50">Wt</td> <td width="50">Śr</td> <td width="50">Czw</td> <td width="50">Pt</td> <td width="50">Sob</td> <td width="50">Ndz</td>
-                    </tr>
+                        <tr>
+                            <td width="50" class="xxx">30</td> <td width="50" class="xxx">31</td> <td width="50" class="xxx-1">1</td> <td width="50" class="xxx-1">2</td> <td width="50" class="xxx-1">3</td> <td width="50" class="xxx-1">4</td> <td width="50">5</td>
+                        </tr>
 
-                    <tr>
-                        <td width="50" class="xxx">30</td> <td width="50" class="xxx">31</td> <td width="50" class="xxx-1">1</td> <td width="50" class="xxx-1">2</td> <td width="50" class="xxx-1">3</td> <td width="50" class="xxx-1">4</td> <td width="50">5</td>
-                    </tr>
+                        <tr>
+                            <td width="50">6</td> <td width="50">7</td> <td width="50" class="xxx-1">8</td> <td width="50" class="xxx-1">9</td> <td width="50" class="xxx-1">10</td> <td width="50" class="xxx-1">11</td> <td width="50">12</td>
+                        </tr>
 
-                    <tr>
-                        <td width="50">6</td> <td width="50">7</td> <td width="50" class="xxx-1">8</td> <td width="50" class="xxx-1">9</td> <td width="50" class="xxx-1">10</td> <td width="50" class="xxx-1">11</td> <td width="50">12</td>
-                    </tr>
+                        <tr>
+                            <td width="50">13</td> <td width="50">14</td> <td width="50" class="xxx-1">15</td> <td width="50" class="xxx-1">16</td> <td width="50" class="xxx-1">17</td> <td width="50" class="xxx-1">18</td> <td width="50">19</td>
+                        </tr>
 
-                    <tr>
-                        <td width="50">13</td> <td width="50">14</td> <td width="50" class="xxx-1">15</td> <td width="50" class="xxx-1">16</td> <td width="50" class="xxx-1">17</td> <td width="50" class="xxx-1">18</td> <td width="50">19</td>
-                    </tr>
+                        <tr>
+                            <td width="50">20</td> <td width="50">21</td> <td width="50" class="xxx-1">22</td> <td width="50" class="xxx-1">23</td> <td width="50" class="xxx-1">24</td> <td width="50" class="xxx-1">25</td> <td width="50">26</td>
+                        </tr>
 
-                    <tr>
-                        <td width="50">20</td> <td width="50">21</td> <td width="50" class="xxx-1">22</td> <td width="50" class="xxx-1">23</td> <td width="50" class="xxx-1">24</td> <td width="50" class="xxx-1">25</td> <td width="50">26</td>
-                    </tr>
-
-                    <tr>
-                        <td width="50">27</td> <td width="50">28</td> <td width="50" class="xxx-1">29</td> <td width="50" class="xxx-1">30</td> <td width="50" class="xxx-1y">1</td> <td width="50" class="xxx-1y">2</td> <td width="50" class="xxx">3</td>
-                    </tr>
+                        <tr>
+                            <td width="50">27</td> <td width="50">28</td> <td width="50" class="xxx-1">29</td> <td width="50" class="xxx-1">30</td> <td width="50" class="xxx-1y">1</td> <td width="50" class="xxx-1y">2</td> <td width="50" class="xxx">3</td>
+                        </tr>
 
                 </table>
-                
+
+                </div>
         </div>
 
     </header>
