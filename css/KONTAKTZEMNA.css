@@ -206,18 +206,16 @@
     justify-content: center;
     align-items: center;
 }
-
 #pokaz
 {
     background-color: rgb(31, 12, 12);
     position: absolute;
-    right: 25vh;
+    right: 30vh;
     bottom: 10vh;
     border-radius: 10px;
     font-family: 'Urbanist', sans-serif;
     display: none;
 }
-
 
 td{
     padding: 9px;
@@ -241,17 +239,30 @@ td{
 }
 #klik
 {
-    background: rgba(3, 7, 255, 0.904);
+    background: rgba(10, 13, 145, 0.904);
     border-radius: 7px;
     text-align: center;
     font-size: 20px;
     padding: 2px;
     width: 130px;
+    height: 40px;
     color: rgb(255, 255, 255);
-    position: relative;
+    position: relative; 
     left: 152vh;
     bottom: 5vh;
     font-family: 'Urbanist', sans-serif;
+    border-style: none;
+    text-shadow: 5px 5px 10px black;
+    transition: all 0.5s ease-in-out;
+    display: block;
+    
+}
+
+#klik:hover
+{
+    background-color: rgb(24, 24, 172);
+    transform:scale(1.1);
+    cursor: pointer;
 }
 
 
