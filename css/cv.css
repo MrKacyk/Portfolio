@@ -1,4 +1,85 @@
-.pojemnik
+#pojemnik
+{   
+    width: 1000px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 3px dashed rgb(37, 20, 58);
+    border-right: 3px dashed rgb(37, 20, 58);
+    padding: 0;
+}
+.S-1
 {
-    
+    margin-left: 35px;
+    margin-right: 35px;
+    border-bottom: 4px double rgb(37, 20, 58);
+    padding: 0;
+}
+
+.szczegoly
+{
+    float: left;
+    border-right: 4px double rgb(37, 20, 58);
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.Dh1
+{
+    font-size: 28px;
+    margin-left: 30px;
+    font-weight: 700;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+.Dh1-1
+{
+    font-size: 22px;
+    margin-left: 30px;
+    font-weight: 700;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+.d1
+{
+    margin-left: 35px;
+    padding: 0;
+    color: gray;
+}
+.d1-1
+{
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.d12
+{
+    padding: 12px 0 12px ;
+    color: gray;
+}
+
+.div1
+{ 
+    width: 50px;
+    height: 4px;
+    background-color: rgba(18, 88, 18, 0.87);
+    margin-left: 35px;
+}
+
+.profil
+{
+    float: left;
+}
+
+.Dh1-2
+{
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 23px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 5px;
 }
