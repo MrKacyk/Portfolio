@@ -1,19 +1,37 @@
 #pojemnik
 {   
     width: 1000px;
-    height: 106vh;
+    height: 130vh;
     margin-left: auto;
     margin-right: auto;
     border-left: 3px dashed rgb(37, 20, 58);
     border-right: 3px dashed rgb(37, 20, 58);
     padding: 0;
 }
+.naglowek
+{
+    position: relative;
+    font-size:45px;
+    bottom:-9vh;
+}
+#img
+{
+    width:228px;
+    height: 250px;
+    background: url(../img/patryk.jpg) ;
+    padding:0px;
+    margin:0px;
+    position: absolute;
+    bottom: 29vh;
+    left: 133vh;
+}
 .S-1
 {
     margin-left: 35px;
     margin-right: 35px;
-    border-bottom: 4px double rgb(37, 20, 58);
-    padding: 0;
+    border-bottom: 9px double rgb(37, 20, 58);
+    padding:7px;
+    height: 33vh;
 }
 
 .szczegoly
@@ -59,6 +77,8 @@
 {
     padding: 12px 0 12px ;
     color: gray;
+    position: relative;
+    bottom:-9vh;
 }
 
 .div1
@@ -100,3 +120,23 @@ p{
     margin-left: 30px;
 }
 
+.h3cl 
+{
+    margin-left: 30px;
+    padding: 5px;
+}
+.h3cl1 {
+    margin-left: 45px;
+    padding-bottom: 1px;
+}
+
+ul>li
+{
+    margin-left: 80px;
+    padding: 5px;
+}
+.ul-1
+{
+    margin-left: 50px;
+    padding:8px;    
+}
