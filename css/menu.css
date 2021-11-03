@@ -3,8 +3,8 @@ nav
     width: 100%;
     padding: 10px 0;
     background-color: rgb(44, 8, 19);
-    border-bottom: 4px dashed black;
-    border-top: 4px dashed black;
+    border-bottom: 5px groove rgb(41, 111, 117);
+    border-top: 5px groove rgb(41, 111, 117);
     text-align: center;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     height: 40px;

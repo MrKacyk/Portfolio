@@ -1,18 +1,26 @@
 #pojemnik
 {   
     width: 1000px;
-    height: 130vh;
+    height: 136vh;
     margin-left: auto;
     margin-right: auto;
-    border-left: 3px dashed rgb(37, 20, 58);
-    border-right: 3px dashed rgb(37, 20, 58);
+    border-left: 9px groove rgb(41, 111, 117);
+    border-right:  9px groove rgb(41, 111, 117);
     padding: 0;
+}
+.d12
+{
+    padding: 12px 0 12px ;
+    color: gray; 
+    float: left;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 2px;
 }
 .naglowek
 {
-    position: relative;
     font-size:45px;
-    bottom:-9vh;
+    margin-top: 6vh;
+    font-family: 'Noto Serif', serif;
 }
 #img
 {
@@ -20,26 +28,26 @@
     height: 250px;
     background: url(../img/patryk.jpg) ;
     padding:0px;
-    margin:0px;
-    position: absolute;
-    bottom: 29vh;
-    left: 133vh;
+    margin-top: 1vh;
+    float:right;
 }
+
 .S-1
 {
     margin-left: 35px;
     margin-right: 35px;
-    border-bottom: 9px double rgb(37, 20, 58);
-    padding:7px;
-    height: 33vh;
+    border-bottom: 9px double rgb(24, 66, 70);
+    padding:2px;
+    height: 29vh;
 }
 
 .szczegoly
 {
     float: left;
-    border-right: 4px double rgb(37, 20, 58);
+    border-right: 9px double rgb(24, 66, 70);
     margin-top: 20px;
-    padding: 5px;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
 }
 
 .Dh1
@@ -49,6 +57,7 @@
     font-weight: 700;
     padding: 5px;
     letter-spacing: 3px;
+    font-family: 'Noto Serif', serif;
 }
 .Dh1-1
 {
@@ -57,29 +66,23 @@
     font-weight: 700;
     padding: 5px;
     letter-spacing: 3px;
+    font-family: 'Noto Serif', serif;
 }
 
 .d1
 {
-    margin-left: 35px;
+    margin-left: 40px;
     padding: 0;
     color: gray;
 }
 .d1-1
 {
-    margin-left: 25px;
-    padding: 10px;
-    font-size: 15px;
+    margin-left: 26px;
+    padding: 8px;
+    font-size: 18px;
     font-weight: 700;
 }
 
-.d12
-{
-    padding: 12px 0 12px ;
-    color: gray;
-    position: relative;
-    bottom:-9vh;
-}
 
 .div1
 { 
@@ -102,15 +105,16 @@
     font-weight: 700;
     letter-spacing: 3px;
     padding: 5px;
+    font-family: 'Noto Serif', serif;
 }
 
 .styl
 {
     width: 630px;
-    border: 4px double rgb(37, 20, 58);
+    border: 6px double rgb(24, 66, 70);
     margin-left: 50px;
     margin-top: 20px;
-}
+}   
 p{
     margin-left: 25px;
     padding: 10px;
@@ -118,22 +122,45 @@ p{
 
 .icon{
     margin-left: 30px;
+    color: rgb(218, 13, 13);
 }
 
 .h3cl 
 {
     margin-left: 30px;
     padding: 5px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 17px;
 }
 .h3cl1 {
     margin-left: 45px;
     padding-bottom: 1px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
 }
-
-ul>li
+.stylediv
 {
-    margin-left: 80px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 12.5px;
+    color: rgb(192, 183, 183);
+}
+.styleh3
+{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+}
+.ul-3
+{
+    margin-left: 40px;
     padding: 5px;
+}
+.li-3
+{
+    margin-left: 40px;
+    padding: 5px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    color: rgb(192, 183, 183);
 }
 .ul-1
 {

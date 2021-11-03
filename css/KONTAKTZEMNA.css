@@ -58,7 +58,7 @@
     -moz-border-radius-bottomleft: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    border-bottom: 4px dashed black;
+    border-bottom: 6px groove rgb(41, 111, 117);
     font-size: 35px;
     color: darkred;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -88,7 +88,7 @@
     -moz-border-radius-bottomleft: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    border-bottom: 4px dashed black;
+    border-bottom: 6px groove rgb(41, 111, 117);
     font-size: 35px;
     color: darkred;
     font-weight: 700;
@@ -157,7 +157,7 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 2px;
-    border-top: 4px dashed black;
+    border-top: 5px groove rgb(41, 111, 117);
     font-family: 'Urbanist', sans-serif;
     font-size: 14px;
 }
