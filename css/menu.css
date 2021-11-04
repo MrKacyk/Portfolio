@@ -15,9 +15,9 @@ nav
     padding: 0;
     margin: 0;
     list-style: none;
-    font-size: 32px;
-    min-height: 200%;
+    font-size: 30px;
     display: inline-block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .menu > ul a
 {

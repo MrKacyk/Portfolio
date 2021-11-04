@@ -1,7 +1,7 @@
 #pojemnik
 {   
     width: 1000px;
-    height: 136vh;
+    height: 137vh;
     margin-left: auto;
     margin-right: auto;
     border-left: 9px groove rgb(41, 111, 117);
@@ -166,4 +166,26 @@ p{
 {
     margin-left: 50px;
     padding:8px;    
+}
+
+.srolldown
+{
+    width: 79px;
+    height: 87px;
+    text-decoration: none;
+    background: url(../img/down.png) no-repeat 0px 0px;
+    position: fixed;
+    right: 140px;
+    bottom: 70px;  
+}
+.srollup
+{
+    width: 79px;
+    height: 87px;
+    text-decoration: none;
+    background: url(../img/up.png) no-repeat 0px 0px;
+    position: fixed;
+    right: 140px;
+    bottom: 50vh;
+    display: none;
 }

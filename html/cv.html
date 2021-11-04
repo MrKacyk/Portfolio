@@ -17,10 +17,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script src="../Js/timer.js"></script>
-
-</head>
+    <script src="../Js/scroll.js"></script>
+    <script src="../Js/jquery.scrollTo.min.js"></script>
+    
+</head> 
 <body onload="odliczanie();">
     <header>
         <div class="span">   
@@ -32,147 +35,152 @@
         </div>
     </header>
     
-    <aside>
+        <aside>
 
-        <div class="conteiner">
+            <div id="jqueryV1" class="conteiner">
 
-            <div id="zegar">12:00:00</div>
-            <div style="clear: both;"></div>
-
-        </div>
-
-    </aside>
-
-    <nav>
-
-        <div class="menu">
-
-            <ul>
-
-                <li><a href="#">PROJEKTY</a></li>
-                <li><a href="../html/O MNIE.html">O MNIE</a></li>
-                <li><a href="#">MOJE CV</a></li>
-                <li><a href="../html/KONTAKTZEMNA.html">KONTAKT ZE MNA</a></li>
-
-            </ul>
-
-        </div>
-
-    </nav>
-
-    <header>
-
-        <div id="pojemnik">
-
-                <div class="S-1">
-                    <div id="img"></div>
-                    <h1 class="naglowek">Patryk  <br> Kacperek</h1>               
-                    <div class="d12">Programista</div>
-    
-                </div>
+                <div id="zegar">12:00:00</div>
                 <div style="clear: both;"></div>
 
-                <div class="szczegoly">
+            </div>
 
-                    <div class="Dh1">Szczegoly</div>
-                    <div class="div1"></div>
+        </aside>
 
-                    <div class="d1-1">ADRES</div>
-                    <div class="d1">Adama Kawika 13</div>
-                    <div class="d1">41-806 Zabrze</div>
-                    <div class="d1">Polska</div>
+        <nav>
 
-                    <br>
+            <div class="menu">
 
-                    <div class="d1-1">NUMER TELEFONU</div>
-                    <div class="d1">730-249-416</div>
-                    
-                    <br>
+                <ul>
 
-                    <div class="d1-1">E-MAIL</div>
-                    <div class="d1">patrolos994@gmail.com</div>
-                    
-                    <br>
+                    <li><a href="#">PROJEKTY</a></li>
+                    <li><a href="../html/O MNIE.html">O MNIE</a></li>
+                    <li><a href="#">MOJE CV</a></li>
+                    <li><a href="../html/KONTAKTZEMNA.html">KONTAKT ZE MNA</a></li>
 
-                    <div class="d1-1">DATA/MIEJSCE URODZENIA</div>
-                    <div class="d1">27/01/1994</div>
-                    <div class="d1">Zabrze</div>
+                </ul>
 
-                    <br>
+            </div>
 
-                    <div class="d1-1">OBYWATELSTWO</div>
-                    <div class="d1">Polski</div>
+        </nav>
 
-                    <br>
+    <header>
+        <div class="down">
 
-                    <div class="Dh1-1">UMIEJETNOSCI</div>
-                    <div class="div1"></div>
-                    <div class="d1-1">HTML</div>
-                    <div class="icon">
-                        <i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i> <i class="demo-icon icon-star-half-alt"></i>  <i class="demo-icon icon-star-empty"></i>
-                    </div>   
-                    <div class="d1-1">CSS</div>
-                    <div class="icon">
-                        <i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i> <i class="demo-icon icon-star-half-alt"></i>  <i class="demo-icon icon-star-empty"></i>
-                    </div>  
-                    <div class="d1-1">JavaScript</div>
-                    <div class="icon">
-                        <i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i> <i class="demo-icon icon-star-half-alt"></i>  <i class="demo-icon icon-star-empty"></i> <i class="demo-icon icon-star-empty"></i>
-                    </div> 
-                    <div class="d1-1">C++</div>
-                    <div class="icon">
-                        <i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i> <i class="demo-icon icon-star-half-alt"></i>  <i class="demo-icon icon-star-empty"></i> <i class="demo-icon icon-star-empty"></i>
-                    </div> 
-                </div>
+            <a href="#" class="srolldown"></a>
+            <a href="#" class="srollup"></a>
 
-                <div class="profil">
+        </div>
+            <div id="pojemnik">
 
-                    <div class="Dh1-2">WYKSZTAŁCENIE</div>
-                    <div class="div1"></div>
+                    <div class="S-1">
+                        <div id="img"></div>
+                        <h1 class="naglowek">Patryk  <br> Kacperek</h1>               
+                        <div class="d12">Programista</div>
+        
+                    </div>
+                    <div style="clear: both;"></div>
 
-                        <div class="h3cl"><h3>Centrum kształcenia ustawicznego nr1</h3></div>
-                                <div class="h3cl1">09/2014-06/2015</div>
-                                
-                                    <ul class="ul-3">
-                                        
-                                        <li class="li-3">Kierunek: Górnictwo i Geologia</li>
-                                        <li class="li-3">Specjalizacja: Górnik</li>
-                                        <li class="li-3">Poziom Wykształcenia: Zawodowe</li>
-                                        
-                                    </ul>  
+                    <div class="szczegoly">
 
-                    <div class="styl"></div>
+                        <div class="Dh1">Szczegoly</div>
+                        <div class="div1"></div>
 
-                    <div class="Dh1-2">DOŚWIADCZENIE ZAWODOWE</div>
-                    <div class="div1"></div>
+                        <div class="d1-1">ADRES</div>
+                        <div class="d1">Adama Kawika 13</div>
+                        <div class="d1">41-806 Zabrze</div>
+                        <div class="d1">Polska</div>
+
+                        <br>
+
+                        <div class="d1-1">NUMER TELEFONU</div>
+                        <div class="d1">730-249-416</div>
+                        
+                        <br>
+
+                        <div class="d1-1">E-MAIL</div>
+                        <div class="d1">patrolos994@gmail.com</div>
+                        
+                        <br>
+
+                        <div class="d1-1">DATA/MIEJSCE URODZENIA</div>
+                        <div class="d1">27/01/1994</div>
+                        <div class="d1">Zabrze</div>
+
+                        <br>
+
+                        <div class="d1-1">OBYWATELSTWO</div>
+                        <div class="d1">Polski</div>
+
+                        <br>
+
+                        <div id="jquery" class="Dh1-1">UMIEJETNOSCI</div>
+                        <div class="div1"></div>
+                        <div class="d1-1">HTML</div>
+                        <div class="icon">
+                            <i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i> <i class="demo-icon icon-star-half-alt"></i>  <i class="demo-icon icon-star-empty"></i>
+                        </div>   
+                        <div class="d1-1">CSS</div>
+                        <div class="icon">
+                            <i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i> <i class="demo-icon icon-star-half-alt"></i>  <i class="demo-icon icon-star-empty"></i>
+                        </div>  
+                        <div class="d1-1">JavaScript</div>
+                        <div class="icon">
+                            <i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i> <i class="demo-icon icon-star-half-alt"></i>  <i class="demo-icon icon-star-empty"></i> <i class="demo-icon icon-star-empty"></i>
+                        </div> 
+                        <div class="d1-1">C++</div>
+                        <div class="icon">
+                            <i class="demo-icon icon-star"></i><i class="demo-icon icon-star"></i> <i class="demo-icon icon-star-half-alt"></i>  <i class="demo-icon icon-star-empty"></i> <i class="demo-icon icon-star-empty"></i>
+                        </div> 
+                    </div>
+
+                    <div class="profil">
+
+                        <div class="Dh1-2">WYKSZTAŁCENIE</div>
+                        <div class="div1"></div>
+
+                            <div class="h3cl"><h3>Centrum kształcenia ustawicznego nr1</h3></div>
+                                    <div class="h3cl1">09/2014-06/2015</div>
                                     
-                    <div>
-                        <ul class="ul-1">
-                            <div class="styleh3"><h3>Pracownik Produkcji</h3></div>
-                                <div>
-                                    <div class="stylediv">Hp Polska Sp. z o.o. / Gliwice</div>
-                                    <div class="stylediv">03.2016 – 06.2018 < 2 lata 4 mies. ></div><br>
-                                </div>
-                            <div class="styleh3"><h3>Operator Maszyn</h3></div>
-                                <div>
-                                    <div class="stylediv">SEST-LUVE - Polska / Gliwice</div>
-                                    <div class="stylediv">06.2018 – 03.2020 < 1 rok 10 mies. ></div><br>
-                                </div>
-                            <div class="styleh3"><h3>Pracownik Magazynowy</h3></div> 
-                                <div class="stylediv">Amazon Fulfillment Jobs / Gliwice</div>
-                                <div class="stylediv">06.2020 – obecnie</div>
-                        </ul>  
+                                        <ul class="ul-3">
+                                            
+                                            <li class="li-3">Kierunek: Górnictwo i Geologia</li>
+                                            <li class="li-3">Specjalizacja: Górnik</li>
+                                            <li class="li-3">Poziom Wykształcenia: Zawodowe</li>
+                                            
+                                        </ul>  
+
+                        <div class="styl"></div>
+
+                        <div class="Dh1-2">DOŚWIADCZENIE ZAWODOWE</div>
+                        <div class="div1"></div>
+                                        
+                        <div>
+                            <ul class="ul-1">
+                                <div class="styleh3"><h3>Pracownik Produkcji</h3></div>
+                                    <div>
+                                        <div class="stylediv">Hp Polska Sp. z o.o. / Gliwice</div>
+                                        <div class="stylediv">03.2016 – 06.2018 < 2 lata 4 mies. ></div><br>
+                                    </div>
+                                <div class="styleh3"><h3>Operator Maszyn</h3></div>
+                                    <div>
+                                        <div class="stylediv">SEST-LUVE - Polska / Gliwice</div>
+                                        <div class="stylediv">06.2018 – 03.2020 < 1 rok 10 mies. ></div><br>
+                                    </div>
+                                <div class="styleh3"><h3>Pracownik Magazynowy</h3></div> 
+                                    <div class="stylediv">Amazon Fulfillment Jobs / Gliwice</div>
+                                    <div class="stylediv">06.2020 – obecnie</div>
+                            </ul>  
+
+                        </div>
+
 
                     </div>
 
+                
 
-                </div>
+                    <style clear: both;></style>
 
-            
-
-                <style clear: both;></style>
-
-        </div>
+            </div>
 
     </header>
 
